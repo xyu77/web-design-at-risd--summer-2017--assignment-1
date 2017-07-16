@@ -34,7 +34,7 @@ Wrap the following content in the proper HTML tags and add it underneath the app
 
 Source: Wikipedia (https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD)
 
-See MDN’s entry for [blockqoute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote) for ideas.
+See MDN’s [blockqoute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote) entry for ideas.
 
 ## Page Title
 
