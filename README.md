@@ -48,6 +48,10 @@ Find Creative Commons-licensed images online of Tim Berners-Lee and Salvador Dal
 
 Use the HTML5 validators ([https://html5.validator.nu/](https://html5.validator.nu/) or [https://validator.w3.org/](https://validator.w3.org/)) to ensure your markup is sound, and use the HTML5 outliner ([https://gsnedders.html5.org/outliner/](https://gsnedders.html5.org/outliner/)) to verify your outlining algorithm makes sense.
 
+## Due
+
+9:00 AM on Wednesday, 26 July 2017.
+
 ## Submission Instructions
 
 Follow [these instructions](http://code-warrior.github.io/tutorials/submitting-assignments-using-github-desktop/) to submit your assignment.
