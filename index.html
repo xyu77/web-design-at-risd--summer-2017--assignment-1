@@ -1,42 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-   <meta charset="utf-8">
+   <meta charset="utf8">
    <title>Bookstore</title>
-   <style>
+   <link rel="stylesheet" href="css/main.css">
+   <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<style>
 
-    body {
-   color:hsl(0%,100%, 50%);
+body {
+
    background-color: rgb(215, 215, 215);
-
+   font-family: 'Zilla Slab', serif;
 }
 
-    header {
+header {
+
    background-image: url(../img/background.jpg);
    background-repeat: no-repeat;
-   background-color: lightyellow;
-   font-size: 18px
+   font-size: 18px;
+   display: inline;
+}
+
+header nav {
+
+  margin-right: 10px:
+  font-weight: 700;
+  color: #ff0000 !important;
 
 }
 
-    header nav ul {
-      text-align: center;
-  border: 1px solid gray;
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
 
-  margin: 10px:
+.navigation {
+  color: white;
+  background-color: #333 ;
+  list-style-type: none;
 
 
 }
-    header nav li {
-      text-align: center;
-   display:inline;
-   padding: 1 px;
+
+.sublist {
    list-style-type: none;
-   color: #ff0000;
    font-size: 15px;
+
 }
-h1 {
-  text-align: center}
+
+
+h3 {
+  font-family: 'Lobster', cursive;
+
+
+}
+h2,h1 {
+text-align: center;
+
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+
+
+
+
+
+
 
 </style>
 
@@ -46,21 +82,22 @@ h1 {
 </head>
 
 <body>
-
    <header>
       <h1>Bookstore</h1>
-      <hr>
+
       <nav>
-        <ul>
+        <ul class="navigation">
           <li>Home</li>
           <li>About</li>
           <li>Catalog</li>
-        </ul>
-      </nav>
-            <ul>
-              <li><b>Art</b></li>
-              <li><b>Engineering</b></li>
+          </ul>
+
+            <ul class="sublist">
+              <li>Art</li>
+              <li>Engineering</li>
             </ul>
+
+        </nav>
    </header>
 
 
@@ -85,7 +122,6 @@ h1 {
 <br>
 <br>
  Source: Wikipedia (https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD)
-
 </p>
 </div>
 
@@ -100,7 +136,9 @@ h1 {
 </div>
 
 
-</body>
-</html>
 
+
+</body>
+
+</html>
 
